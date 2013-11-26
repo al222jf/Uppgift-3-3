@@ -1,4 +1,4 @@
-/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
+﻿/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
 
 
 
@@ -45,7 +45,7 @@ body {
 
 #menu li a {
 	display: block;
-	height: 60px;
+	padding: 6px 0;
 	width: 90px;
 	background-color: #787167;
 	text-decoration: none;
@@ -75,18 +75,19 @@ body {
 }
 #content {
 	width: 100%;
-	height: 400px;
 	background-color: #EAE8D3;
 	margin-top: 40%;
-	
+	overflow-y: auto;
 }
 
 #maincontent {
 	float: left;
 	width: 60%;
-	padding: 10px;
+	margin: 10px;
+	padding-right: 10px;
 	font-family: "Times New Roman", Times, serif;
 	font-size: 17px;
+	border-right: 1px dashed #50483B;
 }
 
 #maincontent img {
@@ -98,40 +99,35 @@ body {
 #maincontent h1 {
 	color: #7A766A;
 	font-size: 30px;
+	margin: 10px 0px;
 }
 
 #subcontent {
 	font-family: Verdana, Arial, Helvetica, sans-serif;
 	font-size: 12px;
-	
-	
-
-
-
-	
-
-
+	padding: 10px;
 }
 
 #subcontent ul {
-	
 	list-style: none;
-
 }
 
 
 #subcontent h1 {
 	color: #7A766A;
 	font-size: 20px;
+	margin: 10px 0px;
 }
 #bottomcontent {
 	width: 100%;
 	text-align: left;
 	color: #7A766A;
+	float: left;
 }
 
 p {
 	color: #7A766A;
+	margin-top: 0px;
 }
 
 h2 {
