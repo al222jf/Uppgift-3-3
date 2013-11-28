@@ -1,9 +1,4 @@
 ﻿/* Denna fil får du editera för att lösa uppgiften. Du får INTE ändra i html-filen. */
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 1bc2d511e749a5c7acfbced503e9674ad469f8cb
 
 body {
 	margin: auto;	
@@ -66,11 +61,8 @@ body {
 	width: 100%;
 	background-color: #EAE8D3;
 	margin-top: 40%;
-<<<<<<< HEAD
 	overflow: auto;
-=======
-	overflow-y: auto;
->>>>>>> 1bc2d511e749a5c7acfbced503e9674ad469f8cb
+
 }
 #maincontent {
 	float: left;
@@ -107,12 +99,10 @@ body {
 	text-align: left;
 	color: #7A766A;
 	float: left;
-<<<<<<< HEAD
 	font-style: italic;
 	font-size: 12px;
 	padding: 5px;
-=======
->>>>>>> 1bc2d511e749a5c7acfbced503e9674ad469f8cb
+
 }
 p {
 	color: #7A766A;
